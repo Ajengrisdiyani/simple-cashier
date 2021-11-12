@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Simple Cashier Ajeng Risdiyani</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+  </head>
+<body>
+    <h2>DAFTAR HARGA BUAH</h2>
+    <ul>
+        <li>
+            Apel : 23.000
+            <small>/kg</small>
+        </li>
+        <li>
+            Pisang : 12.000
+            <small>/kg</small>
+        </li>
+        <li>
+            Anggur : 35.000
+            <small>/kg</small>
+        </li>
+        <li>
+            Mangga : 17.000
+            <small>/kg</small>
+        </li>
+    </ul>
+    <hr>
+    <label for="buah"> Buah :</label>
+    <select id="buah">
+        <option value="Apel">Apel</option>
+        <option value="Pisang">Pisang</option>
+        <option value="Anggur">Anggur</option>
+        <option value="Mangga">Mangga</option>
+    </select>
+
+    <br>
+    <br>
+    <input type="number" id="kilo" placeholder="masukkan jumlah buah/kilogram">
+    <input type="number" id="diskon" placeholder="masukkan jumlah diskon (0%-100%)">
+
+    <br>
+    <br>
+    <button onclick="proses()">Total</button>
+    
+    <h3>Bon</h3>
+</body>
